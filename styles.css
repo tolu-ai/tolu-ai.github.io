@@ -1,25 +1,17 @@
-body {
-  background-color: aqua;
-  display: flex;
+.row {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
 }
 
-
-h1 {
-    color: bisque;
+.red {
+    background-color: red;
 }
 
-.second-header {
-    color: black;
+.green {
+    background-color: green;
 }
 
-.group-text {
-    margin: 24px;
-    padding: 24px;
-    background-color: blueviolet;
-}
-
-@media (max-width: 480px) {
-    body (
-        flex-direction: column;;;
-    )
+.blue {
+    background-color: blue;
 }
